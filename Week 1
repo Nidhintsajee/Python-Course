@@ -140,3 +140,60 @@ str4[::-1]
 
 string -  answer is dlrowolleh
    
+if 6 > 7:
+   print "Yep"
+ 
+blank
+  
+if 6 > 7:
+   print "Yep"
+else:
+   print "Nope"
+ 
+Nope
+  
+var = 'Panda'
+if var == "panda":
+   print "Cute!"
+elif var == "Panda":
+   print "Regal!"
+else:
+   print "Ugly..."
+ 
+Regal!
+ 
+temp = '32'
+if temp > 85:
+   print "Hot"
+elif temp > 62:
+   print "Comfortable" 
+else:
+   print "Cold" 
+
+
+Hint: How to compare different types?
+Hot
+
+temp = 120
+if temp > 85:
+   print "Hot"
+elif temp > 100:
+   print "REALLY HOT!"
+elif temp > 60:
+   print "Comfortable" 
+else:
+   print "Cold"
+
+Hot
+
+temp = 50
+if temp > 85:
+   print "Hot"
+elif temp > 100:
+   print "REALLY HOT!"
+elif temp > 60:
+   print "Comfortable"
+else:
+   print "Cold"
+ 
+Cold  
