@@ -1,0 +1,142 @@
+ Lecture 1 - Introduction to Computation
+ ---------------------------------------
+*An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm. 
+*A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.
+*Computer Science is not the study of how to build efficient machines that run programs.
+*The two things every computer can do are:Perform calculations ,Remember the results.
+*Declarative knowledge refers to statements of fact.
+*Imperative knowledge refers to 'how to' methods.
+*A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be told how to pick a
+starting number, the computer cannot generate one on its own.
+*A stored program computer is not designed to compute precisely one computation, such as a square root, or the trajectory of a 
+missile.
+*A fixed program computer is not designed to run any computation, by interpreting a sequence of program instructions that are read 
+into it.
+*A program counter points the computer to the next instruction to execute in the program. 
+*The computer executes the instructions mostly in a linear sequence, except sometimes it jumps to a different place in the sequence.
+*In order to compute everything that is computable, every computer must not be able to handle the sixteen most primitive operations.
+*Determines whether a string is legal -> Syntax 
+*Determines whether a string has meaning -> Static semantics  
+*Assigns a meaning to a legal sentence -> Semantics
+>>> a = 3
+>>> a + 2.0 
+ 
+float - answer is 5.0
+
+ >>> a = a + 1.0
+>>> a 
+ 
+float - answer is 4.0   
+ >>> a = 3
+>>> b
+ 
+NoneType -  answer error  
+ >>> a == 5.0
+>>> a 
+ 
+int - answer is 3  
+ >>> b = 10
+>>> c = b > 9
+>>> c 
+ 
+bool - answer is True
+"a" + "bc"
+
+"abc"  
+3 * "bc"
+
+"bcbcbc"
+"3" * "bc"
+
+error
+"abcd"[2]
+
+c  
+"abcd"[0:2]
+
+ab
+"abcd"[:2]
+
+ab
+"abcd"[2:]
+
+cd
+> str1 = 'hello'
+> str2 = ','
+> str3 = 'world'
+Note: The Python 'in' operator
+str1
+
+string -  answer is 'hello'
+
+str1[0]
+
+string -  answer is h
+str1[1]
+
+string -  answer is e
+str1[-1]
+
+string -  answer is o 
+len(str1)
+
+int -  answer is 5
+
+str1[len(str1)]
+
+NoneType -  answer is error
+str1 + str2 + str3
+
+string -  answer is 'hello,world'
+str1 + str2 + ' ' + str3
+
+string -  answer is 'hello, world'
+str3 * 3
+
+string -  answer is 'worldworldworld'
+   
+'hello' == str1
+
+boolean - answer is True
+   
+'HELLO' == str1
+
+boolean -  answer is False
+   
+'a' in str3
+
+boolean -  answer is False
+ 
+ str4 = str1 + str3
+'low' in str4
+					
+boolean -  answer is True
+
+str3[1:3]
+
+string -  answer is or
+ 
+str3[:3]
+
+string - answer is wor
+ 
+str3[:-1]
+
+string - answer is worl
+
+str1[1:]
+
+ string - answer is ello
+ 
+str4[1:9]
+
+string -  answer is elloworl
+  
+str4[1:9:2]
+ 
+string -  answer is elwr
+
+str4[::-1]
+
+string -  answer is dlrowolleh
+   
